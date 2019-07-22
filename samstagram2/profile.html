@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link href="samstagramstyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <h3 align="right"><a href="samstagramindex.html">news feed</a></h3>
+        <h1>SAMS-tagram</h1>
+    </div>
+
+    <div id="og-profile">
+        <h3 style="font-size:25px"> <b>Name</b></h3>
+        <br>
+        <p style="font-size:18px" id=og-name-text>Andrew Carnegie</p>
+        <h3 style="font-size:25px">Photo</h3>
+        <img id=og-profile-pic src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNTc1NTc2MDc3/andrew-carnegie-9238756-1-402.jpg"</img>
+        <br><br>
+        <h3 style="font-size:25px"> Bio</h3>
+        <p id="og-bio">I'm a Scottish-American industrialist, business magnate, and philanthropist. I led the expansion of the American steel industry in the late 19th century and became one of the richest Americans in history. I also became a leading philanthropist in the United States and in the British Empire. During the last 18 years of his life, I gave away about $350 million to charities, foundations, and universities – almost 90 percent of his fortune. My 1889 article proclaiming "The Gospel of Wealth" called on the rich to use their wealth to improve society, and stimulated a wave of philanthropy.</p>
+        <br><br><br>
+        <h4>Edit Profile</h4>
+        <form id="edit_profile">
+            Name : <input type="text" id="newnameinput"/>
+            <br>
+            Image: <input type="text" id="newphotoinput"/>
+            <br>
+            Bio: <input type="text" id="newbioinput"/>
+            <input type="submit" value="save" id="savebutton" />
+        </form>
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="profile.js"></script>
+</body>
+</html>

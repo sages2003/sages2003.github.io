@@ -1,0 +1,55 @@
+﻿body {
+    background-color: darkgray;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: Arial;
+    border-radius: 4px;
+}
+
+.whiteblock {
+    display: block;
+    color: black;
+    background-color: silver;
+    height: 200px;
+    margin: 47px;
+    padding-top: 15px;
+    padding-left: 5px;
+    font-family: Arial;
+
+}
+
+.post_input {
+    background-color: white;
+    padding-bottom: 50px;
+    max-width: 200px;
+    max-height: 150px;
+    padding-left: 20px;
+    padding-top:10px;
+    display: block;
+    float: left;
+    overflow-x:auto;
+    overflow-y: auto;
+    word-wrap: break-word;
+    margin:20px;
+}
+
+p {
+    margin: 0px;
+    
+}
+
+img {
+    margin: 0px;
+    max-height:180px;
+    max-width:180px;
+
+
+p:a {
+        text-align:right;
+    }
