@@ -1,0 +1,51 @@
+﻿body {
+    background-color: #D6ECEF;
+
+}
+
+.header {
+    background-color: #BDDCDF;
+    border-radius:4px;
+}
+
+
+.textblock1 {
+    margin: 20px;
+    background-color: #BDDCDF;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+.textblock2 {
+    margin: 20px;
+    padding: 5px;
+    background-color: #BDDCDF;
+    border-radius: 4px;
+
+}
+
+.textblock3 {
+    margin: 20px;
+    padding: 5px;
+    background-color: #BDDCDF;
+    border-radius: 4px;
+
+}
+
+.textblock4 {
+    margin: 20px;
+    padding: 5px;
+    background-color: #BDDCDF;
+    border-radius: 4px;
+
+}
+
+img {
+    max-height: 100px;
+    max-width: 300px;
+    display: block;
+    background-color: #98C9CD;
+    padding: 5px;
+
+}
